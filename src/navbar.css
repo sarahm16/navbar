@@ -1,0 +1,163 @@
+.bg-dark.transparent,
+.dropdown-menu.transparent {
+    background-color: transparent !important;
+}
+.bg-dark.black,
+.dropdown-menu.black,
+.dropdown-locations {
+    background-color: rgba(24, 24, 24, 0.9) !important;
+    backdrop-filter: blur(2px);
+}
+
+nav.navbar {
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+}
+
+nav.navbar.topPadding {
+    top: 30px
+}
+
+nav .franchise-info {
+    margin-right: 80px;
+}
+
+
+
+nav .navbar-nav li a,
+nav button,
+nav .navbar-collapse,
+nav .navbar-collapse a {
+    color: white !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    letter-spacing: .05em;
+}
+
+nav .navbar-nav li a,
+nav button {
+    font-size: 15px;
+}
+
+nav button {
+    border-radius: 0px !important;
+}
+
+nav .navbar-collapse {
+    margin-top: 20px;
+}
+
+nav .navbar-collapse i {
+    margin-right: 7px;
+    margin-left: 7px;
+}
+
+nav button {
+    line-height: 1.5 !important;
+    background-color: transparent;
+    border: 0px;
+    border-radius: 0px !important;
+}
+
+nav .navbar-nav li a.active {
+    border-bottom: 1px solid lightgray;
+}
+
+a.dropdown-item {
+    text-align: right !important;
+    padding-right: 0px !important;
+}
+div.dropdown-menu {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+a#navbarDropdown.nav-link.dropdown-toggle.ml-auto {
+    text-align: right !important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: transparent;
+    border-bottom: 1px solid lightgray;
+}
+
+.dropdown button.active {
+    border-bottom: 1px solid lightgray;
+}
+
+nav .navbar-nav li a:hover {
+    /* border-bottom: 1px solid lightgray; */
+    color: rgb(199, 199, 199) !important;
+}
+nav span {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+nav .navbar-nav li a:hover {
+    color:rgb(1, 120, 255);
+}
+.navbar-custom {
+    background-color: inherit;
+}
+
+.nav-page {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: white !important;
+    letter-spacing: .08em;
+    font-size: .9em;
+    margin-left: 0px;
+
+}
+.dropdown-menu .dropdown-item:hover {
+    color: rgb(1, 120, 255) !important;
+    background-color: inherit !important;
+}
+#logo {
+    width: 110px;
+    /* height: 50px; */
+    margin-left: 0px;
+    /* margin-right: 10px; */
+}
+
+.location i {
+    margin: 0px 10px 0px 10px;
+}
+
+@media only screen and (min-width: 576px) {
+    .nav-page {
+        font-size: 1.4em;
+    }
+    nav .sm-screen-show {
+        display: none;
+    }
+    /* nav .franchise-contact i.fa-phone {
+        margin-left: 20px;
+    } */
+    nav .franchise-contact,
+    nav .franchise-contact a {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    a.dropdown-item {
+        padding-left: 8px !important;
+        text-align: left !important;
+        /* padding-right: 0px !important; */
+    }
+    #logo {
+        width: 150px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    .nav-page {
+        font-size: 1.6em;
+        margin-left: 30px;
+    }
+    nav .navbar-collapse {
+        margin-top: 0px;
+    }
+}
